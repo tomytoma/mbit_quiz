@@ -146,3 +146,89 @@ body.hasHover #btn0:hover, body.hasHover #btn1:hover {
     border-radius: 3px 3px 3px 3px;
     transition: all ease 0.2s 0s;
 }
+
+#reset {
+    background-color: #21165f;
+    width: 150px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #1D3C6A;
+    margin: 5px 10px 5px 0px;
+    padding: 10px 10px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+body.hasHover #reset:hover {
+    background-color: #0e773a;
+    border: 1px solid #6d6d6d;
+    border-radius: 3px 3px 3px 3px;
+    transition: all ease 0.2s 0s;
+    cursor: pointer;
+}
+
+#kakao {
+    background-color: #f1db0c;
+    width: 150px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #423100;
+    border: 1px solid #7a5a02;
+    margin: 5px 10px 5px 0px;
+    padding: 10px 10px;
+    border-radius: 3px 3px 3px 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+body.hasHover #kakao:hover {
+    background-color: #423100;
+    color: white;
+    border: 1px solid #6d6d6d;
+    border-radius: 3px 3px 3px 3px;
+    transition: all ease 0.2s 0s;
+    cursor: pointer;
+}
+
+.ing_kakao {
+    position: relative; 
+    display: inline-block; 
+    border-bottom: 2px dotted Sienna; 
+    background-color: rgb(214, 211, 0); }
+
+.ing_kakao .ing_text {
+    visibility: hidden; 
+    width: 200px; 
+    background-color: #f1db0c; 
+    color: #423100; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 10px 5px; 
+    position: absolute; 
+    z-index: 1;
+    top: -150%; 
+    left: 50%; 
+    margin-left: -105px;
+}
+
+.ing_kakao .ing_text::after { 
+    content: ""; 
+    position: absolute; 
+    bottom: -50%; 
+    left: 50%; 
+    margin-left: -10px; 
+    border-width: 10px; 
+    border-style: solid; 
+    border-color: transparent transparent #423100 transparent; 
+} 
+    
+.ing_kakao:hover .ing_text { 
+    visibility: visible; 
+}
+
+.footer_buttons {
+    margin-top: 40px;
+    text-align: center;
+}
